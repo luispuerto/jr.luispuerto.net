@@ -2,9 +2,9 @@
 layout: post
 title: "Hello World!"
 author: lpuerto
-date: 2019-12-05
+date: 2019-12-05 20:00:00
 categories:
-description:
+description: 
 image: https://picsum.photos/2000/1200?image=1003
 image-sm: https://picsum.photos/500/300?image=1003
 ---
