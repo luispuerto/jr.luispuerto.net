@@ -37,9 +37,10 @@ exclude:
   - LICENSE.txt
   - README.md
 
-# Pagination
+# Outputting
 paginate: 5
 paginate_path: "/blog/page-:num"
+timezone: UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Sass
 sass:
