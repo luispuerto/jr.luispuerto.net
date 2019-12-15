@@ -1,21 +1,22 @@
 # Site/SEO settings
-email: 
+email: junior@luispuerto.net
 permalink: /:year/:month/:day/:title/
 google_analytics: 
 
-title: Trophy
+title: >
+  Luis Puerto Jr.
 description: 
-url: ""
+url: "https://jr.luispuerto.net"
 baseurl: ""
 twitter_username: 
 default_img: 
 
 # Profile settings
-name: 
-profile_img: 
-profile: 
+name: Luis Puerto Díaz
+profile_img: https://picsum.photos/2000/1200?image=1003
+profile: I just born and I'm here 
 social:
-  github: 
+  github: https://github.com/luispuerto/jr.luispuerto.net
 
 # Build settings
 markdown: kramdown
