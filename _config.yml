@@ -17,6 +17,7 @@ profile_img: https://picsum.photos/2000/1200?image=1003
 profile: I just born and I'm here 
 social:
   github: https://github.com/luispuerto/jr.luispuerto.net
+copyright: LPD
 
 # Build settings
 markdown: kramdown

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About"
-permalink: /license/
+title: "Licenses"
+permalink: /licenses/
 date: 2019-12-15 21:48:42
 categories:
 description:
