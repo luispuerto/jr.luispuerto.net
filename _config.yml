@@ -9,7 +9,7 @@ description:
 url: "https://jr.luispuerto.net"
 baseurl: ""
 twitter_username: 
-default_img: 
+default_img: https://picsum.photos/2000/1200?image=1003
 
 # Profile settings
 name: Luis Puerto Díaz
