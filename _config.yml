@@ -1,5 +1,5 @@
 # Site/SEO settings
-email: junior@luispuerto.net
+email: luis.jr@luispuerto.net
 permalink: /:year/:month/:day/:title/
 google_analytics: 
 
@@ -14,10 +14,47 @@ default_img:
 # Profile settings
 name: Luis Puerto Díaz
 profile_img: https://picsum.photos/2000/1200?image=1003
-profile: I just born and I'm here 
+profile: I just born and I'm here. 
 social:
   github: https://github.com/luispuerto/jr.luispuerto.net
 copyright: LPD
+
+authors: 
+  lpuertojr: 
+    name: Luis Puerto Díaz
+    profile_img: https://picsum.photos/2000/1200?image=1003
+    profile: >
+        Son of Olalla & Luis. True European, since I was born in Finland from 
+        Spanish parents. I just born and I'm here. 
+    email: luis.jr@luispuerto.net
+    social:
+      
+
+  lpuerto:
+    name: Luis Puerto Sr.
+    profile_img: https://luispuerto.net/assets/images/pages/header-splash.jpg
+    profile: >
+        Father of the owner of the site. Born in Ponferrada, Spain. 
+        A Forest Engineer interested in Science and Technology. 
+        Fascinated about almost everything
+    email: luis@luispuerto.net
+    social:
+      twitter: https://twitter.com/lpuerto
+      linkedin: https://www.linkedin.com/in/lpuerto
+      github: https://github.com/luispuerto/
+      user-circle: https:luispuerto.net
+
+  olalla:
+    name: Olalla Díaz Yáñez
+    profile_img: https://olalladiaz.net/assets/images/profile.jpg
+    profile: >
+        Mother of the owner of the web. 
+    social:
+      twitter: http://twitter.com/olalla
+      instagram: http://instagram.com/olalla
+      github: https://github.com/oldiya
+      user-circle: https://olalladiaz.net
+
 
 # Build settings
 markdown: kramdown

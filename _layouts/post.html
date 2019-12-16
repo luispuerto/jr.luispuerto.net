@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% assign author = site.authors[page.author] | default: site.authors.lpuertojr %}
+
 <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
@@ -12,6 +14,7 @@ layout: default
     <div class="mast__container">
       <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
       <h1 itemprop="name headline">{{ page.title }}</h1>
+      by {{author.name}}
       {% if page.categories.size > 0 %}
         <span>Posted in 
           {% for category in page.categories %}

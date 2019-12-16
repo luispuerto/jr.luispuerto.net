@@ -1,16 +1,17 @@
 <section class="profile">
   <div class="profile__card">
     <div class="profile__img">
-      <figure class="absolute-bg" style="background-image: url('{{ site.profile_img }}');"></figure>
+      <figure class="absolute-bg" style="background-image: url('{{ author.profile_img }}');"></figure>
     </div>
     <div class="profile__container">
-      <p>{{ site.profile }}</p>
-      {% if site.email or site.social %}
+      <b>{{ author.name }}</b>
+      <p>{{ author.profile }}</p>
+      {% if author.email or author.social %}
         <ul class="profile__social">
-          {% if site.email %}
+          {% if author.email %}
             <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.email }}"></a></li>
           {% endif %}
-          {% for social in site.social %}
+          {% for social in author.social %}
             <li><a class="fa fa-lg fa-{{ social[0] }}" href="{{ social[1] }}" target="_blank"></a></li>
           {% endfor %}
         </ul>
