@@ -490,9 +490,15 @@
 
     background-color: $color-black;
 
+    overflow: hidden;
+
     @media (min-width: $mq-md) {
       flex-basis: 45%;
       max-width: 45%;
+    }
+
+    .absolute-bg {
+      padding-top: 70%; 
     }
 
     &:after {
