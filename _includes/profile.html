@@ -1,19 +1,25 @@
 <section class="profile">
   <div class="profile__card">
     <div class="profile__img">
-      <figure class="absolute-bg" style="background-image: url('{{ author.profile_img }}');"></figure>
+      <figure class="absolute-bg" style="background-image: url('{{ author.profile_img | default: site.profile_img }}');"></figure>
     </div>
     <div class="profile__container">
-      <b>{{ author.name }}</b>
-      <p>{{ author.about }}</p>
-      {% if author.email or author.social %}
+      <b>{{ author.name | default: site.name }}</b>
+      <p>{{ author.about | default: site.about }}</p>
+      {% if author.email or author.social or site.email or site.social %}
         <ul class="profile__social">
-          {% if author.email %}
-            <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.email }}"></a></li>
+          {% if author.email or site.email %}
+            <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.email | default: site.email }}"></a></li>
           {% endif %}
-          {% for social in author.social %}
-            <li><a class="fa fa-lg fa-{{ social[0] }}" href="{{ social[1] }}" target="_blank"></a></li>
-          {% endfor %}
+          {% if author.social %}
+            {% for social in author.social %}
+              <li><a class="fa fa-lg fa-{{ social[0] }}" href="{{ social[1] }}" target="_blank"></a></li>
+            {% endfor %}
+          {% else %}
+            {% for social in site.social %}
+              <li><a class="fa fa-lg fa-{{ social[0] }}" href="{{ social[1] }}" target="_blank"></a></li>
+            {% endfor %}
+          {% endif %}
         </ul>
       {% endif %}
     </div>

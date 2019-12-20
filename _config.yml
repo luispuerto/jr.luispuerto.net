@@ -14,20 +14,15 @@ default_img: https://picsum.photos/2000/1200?image=1003
 # Profile settings
 name: Luis Puerto Díaz
 profile_img: https://picsum.photos/2000/1200?image=1003
-about: I just born and I'm here. 
+about: >
+    I just born and I'm here. Son of Olalla & Luis. 
+    True European, since I was born in Finland from 
+    Spanish parents. I just born and I'm here. 
 social:
   github: https://github.com/luispuerto/jr.luispuerto.net
 copyright: LPD
 
 authors: 
-  lpuertojr: 
-    name: Luis Puerto Díaz
-    profile_img: https://picsum.photos/2000/1200?image=1003
-    about: >
-        Son of Olalla & Luis. True European, since I was born in Finland from 
-        Spanish parents. I just born and I'm here. 
-    email: luis.jr@luispuerto.net
-    social:
       
   lpuerto:
     name: Luis Puerto Sr.
