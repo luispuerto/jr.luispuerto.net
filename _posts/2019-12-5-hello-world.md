@@ -5,8 +5,8 @@ author: lpuerto
 date: 2019-12-05 20:00:00
 categories:
 description: 
-image: https://i.imgur.com/LSJtEKV.jpg
-image-sm: https://i.imgur.com/UrurU7k.jpg
+image: https://i.imgur.com/UrurU7k.jpg
+image-fp: https://i.imgur.com/LSJtEKV.jpg
 ---
 
 On December 5 2019, at 22.00, our son, Luis Puerto Díaz, was born at the [North Karelia Hospital][1], in [Joensuu][2], Finland :finland:. He was 3.8kg and 51cm long, which probably means that is going to be a big boy. He and his mother are well, but labor had consequences for Olalla and she had to undergo surgery right after it. 
