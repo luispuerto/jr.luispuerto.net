@@ -1,17 +1,18 @@
-# Site/SEO settings
+# Site & SEO settings
+title: Luis Puerto Jr.
 email: luis.jr@luispuerto.net
-permalink: /:year/:month/:day/:title/
-google_analytics: 
-
-title: >
-  Luis Puerto Jr.
-description: 
+description: >
+  This the personal blog of Luis Puerto Jr. At the moment his parents are the 
+  ones managing and writing on it. 
 url: "https://jr.luispuerto.net"
 baseurl: ""
+google_analytics: UA—XXXXXXXX-X
 twitter_username: 
 default_img: https://picsum.photos/2000/1200?image=1003
 
 # Profile settings
+
+## Main Profile
 name: Luis Puerto Díaz
 profile_img: https://picsum.photos/2000/1200?image=1003
 about: >
@@ -22,6 +23,7 @@ social:
   github: https://github.com/luispuerto/jr.luispuerto.net
 copyright: LPD
 
+## Additional profiles
 authors: 
       
   lpuerto:
@@ -52,6 +54,9 @@ authors:
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+incremental: false
+future: false
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -70,9 +75,31 @@ exclude:
   - LICENSE.txt
   - README.md
 
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  math_engine: mathjax
+  math_engine_opts: # more info: https://kramdown.gettalong.org/math_engine/mathjax.html
+    preview: false
+    preview_as_code: false 
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
 # Outputting
 paginate: 5
 paginate_path: "/blog/page-:num"
+permalink: /:year/:month/:day/:title/
 timezone: UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Sass
