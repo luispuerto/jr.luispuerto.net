@@ -3,7 +3,7 @@ layout: post
 title: "Hello World!"
 author: lpuerto
 date: 2019-12-05 20:00:00
-categories: first things
+categories: [first things]
 description: 
 image: https://i.imgur.com/UrurU7k.jpg
 image-fp: https://i.imgur.com/LSJtEKV.jpg
