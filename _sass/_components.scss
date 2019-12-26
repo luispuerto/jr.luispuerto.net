@@ -617,3 +617,34 @@ img.emoji {
   margin: 0; 
   display: inline; 
 }
+
+/**
+ * footnotes
+ */
+
+.footnotes {
+  color: grey;
+  margin-top: 2em;
+  display: inline-block;
+
+  ol,
+  li,
+  p {
+    margin-bottom: 0;
+    font-size: 0.8em;
+  }
+
+  &::before {
+    display: block;
+    content: "Footnotes:";
+    font-weight: bold;
+    margin: 1em 0;
+    border: 0;
+    border-top: 1px solid gray;
+    padding-top: 1em;
+  }
+  a {
+    color: steelblue; 
+  }
+}
+
