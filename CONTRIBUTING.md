@@ -6,7 +6,6 @@ However, if you want to to contribute with content, and you aren't a regular aut
 
 In any case, please, create a branch for your contribution, either on your fork or on this repository, if you have permission to do so. This way your contribution will go through **pull request process** and others will acknowledge your work. 
 
-
 We are (trying to) follow [gitflow][] branching model, so if you are contributing to the code name your branch accordingly (fix, feature, etc). If you are contributing with content, either with a post or page we follow the convention `post/name-of-post` or `page/name-of-page` to name branches for the purpose of writing content and trying to mimic the gitflow method for code. The `name-of-post` has to be something descriptive and short. Doesn't have to be the tittle of the post. 
 
 Even if you have pushing permission never ever push to master before you talk to the other regular contributors, so no one ends up with a mess in their local repo that ends in everyone repo's.  
