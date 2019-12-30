@@ -15,12 +15,12 @@ This is a site to celebrate our son and share our experience as parents with the
     - [Noteworthy Jekyll Plugins & Gems :gem:](#noteworthy-jekyll-plugins--gems-gem)
     - [Other:](#other)
 - [Edit and configuring the theme](#edit-and-configuring-the-theme)
-        - [Site & SEO Settings](#site--seo-settings)
-        - [Profile Settings](#profile-settings)
-            - [Default Profile](#default-profile)
-            - [Additional profiles](#additional-profiles)
-        - [Build Settings](#build-settings)
-        - [Outputting](#outputting)
+    - [Site & SEO Settings](#site--seo-settings)
+    - [Profile Settings](#profile-settings)
+        - [Default Profile](#default-profile)
+        - [Additional profiles](#additional-profiles)
+    - [Build Settings](#build-settings)
+    - [Outputting](#outputting)
 - [How to...](#how-to)
     - [Create a post?](#create-a-post)
     - [Add a responsive video](#add-a-responsive-video)
@@ -84,7 +84,7 @@ The theme is pretty simple, so there is no so much to configure. All configurati
 
 Some descriptions for the `_config.yml` file. 
 
-#### Site & SEO Settings 
+### Site & SEO Settings 
 
 ```yaml
 title:
@@ -106,11 +106,11 @@ default_img:
 - `twitter_username` - Twitter username
 - `default_img` - Image that will appear when posting links on social networks
 
-#### Profile Settings
+### Profile Settings
 
 There is a main profile or default profile, which correspond to the main author or the owner of the site, but you can configure additional authors, for collaborators and regular authors. 
 
-##### Default Profile
+#### Default Profile
 
 ```yaml
 name: 
@@ -127,7 +127,7 @@ copyright:
 - `social` - List of social networks for icons in the contact card and the footer ([Font Awesome](http://fontawesome.io/) is used, so only match the name of the icon, but do not include `fa-`)
 - `copyright` - Name or initials under the site is copyrighted. 
 
-##### Additional profiles
+#### Additional profiles
 
 ```yaml
 authors: 
@@ -152,7 +152,7 @@ authors:
 - `email` - contact email of the author
 - `social` - List of social networks for icons in the contact card and the footer ([Font Awesome](http://fontawesome.io/) is used, so only match the name of the icon, but do not include `fa-`)
 
-#### Build Settings
+### Build Settings
 
 ```yaml
 markdown: kramdown
@@ -188,7 +188,7 @@ exclude:
 - `exclude` - Folders that are excluded from `_site`.
 
 
-#### Outputting
+### Outputting
 
 ```yaml 
 paginate: 5
