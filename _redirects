@@ -1,0 +1,15 @@
+# Redirection to photos for the family
+
+http://familia.photos.jr.luispuerto.net/* https://photos.app.goo.gl/vttSanZe98XqRvN28/:splat 301!
+https://familia.photos.jr.luispuerto.net/* https://photos.app.goo.gl/vttSanZe98XqRvN28/:splat 301!
+
+http://family.photos.jr.luispuerto.net/* https://photos.app.goo.gl/vttSanZe98XqRvN28/:splat 301!
+https://family.photos.jr.luispuerto.net/* https://photos.app.goo.gl/vttSanZe98XqRvN28/:splat 301!
+
+http://fotos-familia.jr.luispuerto.net/* https://photos.app.goo.gl/vttSanZe98XqRvN28/:splat 301!
+https://fotos-familia.jr.luispuerto.net/* https://photos.app.goo.gl/vttSanZe98XqRvN28/:splat 301!
+
+# Redirections for photos for everyone else
+
+http://photos.jr.luispuerto.net/* https://photos.app.goo.gl/94sCtJjWASMJDcwQA/:splat 301!
+https://photos.jr.luispuerto.net/* https://photos.app.goo.gl/94sCtJjWASMJDcwQA/:splat 301!

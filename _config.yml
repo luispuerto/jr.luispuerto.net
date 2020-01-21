@@ -67,6 +67,7 @@ compress_html:
   startings: [html, head, body]
 include: 
   - _pages
+  - _redirects
 exclude:
   - _screenshots
   - .DS_Store
