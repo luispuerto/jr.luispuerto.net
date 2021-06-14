@@ -9,6 +9,8 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll"
+gem "kramdown"
+gem "kramdown-parser-gfm"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -17,6 +19,8 @@ group :jekyll_plugins do
   gem "octopress-autoprefixer"
   gem "jemoji"
 end
+
+gem "webrick", "~> 1.7"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
